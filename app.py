@@ -8,7 +8,13 @@ from bs4 import BeautifulSoup
 st.set_page_config(page_title="Détection des perfs", layout="wide")
 
 # === Logo en haut, titre juste en dessous (centré sur la ligne suivante)
-st.image("logo.png", width=120)
+st.markdown("""
+    <div style="text-align: center;">
+        <a href="#" onclick="window.location.reload();">
+            <img src="logo.png" width="120" style="cursor: pointer;" />
+        </a>
+    </div>
+""", unsafe_allow_html=True)
 
 # Titre sur la ligne suivante, en noir
 st.markdown("<h2 style='color:#000000;'>🧠 Détection des performances </h2>", unsafe_allow_html=True)
