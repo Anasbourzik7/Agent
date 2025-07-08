@@ -3,3 +3,6 @@ joblib
 pandas
 plotly
 beautifulsoup4
+xgboost
+scikit-learn
+numpy
