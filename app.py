@@ -34,7 +34,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # === Charger le modèle
-model_path = "/Users/paki/Desktop/PFE/2-Models/XGext.pkl"
+model_path = "models/XGext.pkl"
 model = joblib.load(model_path)
 
 # === Fonction d'extraction des données AWR avec query_text
