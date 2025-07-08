@@ -1,0 +1,946 @@
+[
+    {
+        "query_id": "1mx5ff7hu4vbc",
+        "awr_file": "awrrpt_1_45771_45772.html",
+        "rows_processed": 14202941,
+        "elapsed_time": 432.18,
+        "cpu_percent": 21.4
+    },
+    {
+        "query_id": "4mduxcbvxt9at",
+        "awr_file": "awrrpt_1_45771_45772.html",
+        "rows_processed": 14140562,
+        "elapsed_time": 334.79,
+        "cpu_percent": 21.8
+    },
+    {
+        "query_id": "2nd3zd8gqb8y1",
+        "awr_file": "awrrpt_1_45771_45772.html",
+        "rows_processed": 14075660,
+        "elapsed_time": 289.40,
+        "cpu_percent": 20.1
+    },
+    {
+        "query_id": "22q2s31jf3p73",
+        "awr_file": "awrrpt_1_45771_45772.html",
+        "rows_processed": 1502086,
+        "elapsed_time": 343.11,
+        "cpu_percent": 13.5
+    },
+    {
+        "query_id": "g634auspqtvm8",
+        "awr_file": "awrrpt_1_45771_45772.html",
+        "rows_processed": 117094,
+        "elapsed_time": 537.77,
+        "cpu_percent": 22.7
+    },
+    {
+        "query_id": "8drzxda9v4cvr",
+        "awr_file": "awrrpt_1_45771_45772.html",
+        "rows_processed": 58520,
+        "elapsed_time": 778.76,
+        "cpu_percent": 22.7
+    },
+    {
+        "query_id": "dcysbmgpdmgdv",
+        "awr_file": "awrrpt_1_45771_45772.html",
+        "rows_processed": 0,
+        "elapsed_time": 5.33,
+        "cpu_percent": 25.9
+    },
+    {
+        "query_id": "5dqz0hqtp9fru",
+        "awr_file": "awrrpt_1_45771_45772.html",
+        "rows_processed": 33276,
+        "elapsed_time": 2.95,
+        "cpu_percent": 26.2
+    },
+    {
+        "query_id": "0k8522rmdzg4k",
+        "awr_file": "awrrpt_1_45771_45772.html",
+        "rows_processed": 35159,
+        "elapsed_time": 1.36,
+        "cpu_percent": 27.3
+    },
+    {
+        "query_id": "7u30snk13u30q",
+        "awr_file": "awrrpt_1_45771_45772.html",
+        "rows_processed": 19670,
+        "elapsed_time": 2.17,
+        "cpu_percent": 26.8
+    },
+    {
+        "query_id": "1v717nvrhgbn9",
+        "awr_file": "awrrpt_1_45769_45770.html",
+        "rows_processed": 1287418,
+        "elapsed_time": 14.33,
+        "cpu_percent": 27.6
+    },
+    {
+        "query_id": "22q2s31jf3p73",
+        "awr_file": "awrrpt_1_45769_45770.html",
+        "rows_processed": 1042387,
+        "elapsed_time": 221.13,
+        "cpu_percent": 17.1
+    },
+    {
+        "query_id": "gxxcxqu02knzp",
+        "awr_file": "awrrpt_1_45769_45770.html",
+        "rows_processed": 101936,
+        "elapsed_time": 17.57,
+        "cpu_percent": 29.3
+    },
+    {
+        "query_id": "bnx76hvpmu8zm",
+        "awr_file": "awrrpt_1_45769_45770.html",
+        "rows_processed": 68646,
+        "elapsed_time": 11.16,
+        "cpu_percent": 23.8
+    },
+    {
+        "query_id": "g634auspqtvm8",
+        "awr_file": "awrrpt_1_45769_45770.html",
+        "rows_processed": 81794,
+        "elapsed_time": 384.50,
+        "cpu_percent": 26.3
+    },
+    {
+        "query_id": "8drzxda9v4cvr",
+        "awr_file": "awrrpt_1_45769_45770.html",
+        "rows_processed": 40878,
+        "elapsed_time": 564.52,
+        "cpu_percent": 26.6
+    },
+    {
+        "query_id": "dcysbmgpdmgdv",
+        "awr_file": "awrrpt_1_45769_45770.html",
+        "rows_processed": 0,
+        "elapsed_time": 4.04,
+        "cpu_percent": 29.8
+    },
+    {
+        "query_id": "5dqz0hqtp9fru",
+        "awr_file": "awrrpt_1_45769_45770.html",
+        "rows_processed": 24681,
+        "elapsed_time": 2.30,
+        "cpu_percent": 29.8
+    },
+    {
+        "query_id": "0k8522rmdzg4k",
+        "awr_file": "awrrpt_1_45769_45770.html",
+        "rows_processed": 25815,
+        "elapsed_time": 1.11,
+        "cpu_percent": 30.0
+    },
+    {
+        "query_id": "9jt0nr6xk5xht",
+        "awr_file": "awrrpt_1_45769_45770.html",
+        "rows_processed": 1251,
+        "elapsed_time": 15.20,
+        "cpu_percent": 31.1
+    },
+    {
+        "query_id": "22q2s31jf3p73",
+        "awr_file": "awrrpt_1_45770_45771.html",
+        "rows_processed": 1495105,
+        "elapsed_time": 405.78,
+        "cpu_percent": 10.4
+    },
+    {
+        "query_id": "1mx5ff7hu4vbc",
+        "awr_file": "awrrpt_1_45770_45771.html",
+        "rows_processed": 852198,
+        "elapsed_time": 17.86,
+        "cpu_percent": 30.2
+    },
+    {
+        "query_id": "gxxcxqu02knzp",
+        "awr_file": "awrrpt_1_45770_45771.html",
+        "rows_processed": 140877,
+        "elapsed_time": 20.41,
+        "cpu_percent": 26.5
+    },
+    {
+        "query_id": "bnx76hvpmu8zm",
+        "awr_file": "awrrpt_1_45770_45771.html",
+        "rows_processed": 98641,
+        "elapsed_time": 11.52,
+        "cpu_percent": 23.2
+    },
+    {
+        "query_id": "g634auspqtvm8",
+        "awr_file": "awrrpt_1_45770_45771.html",
+        "rows_processed": 117932,
+        "elapsed_time": 567.00,
+        "cpu_percent": 20.8
+    },
+    {
+        "query_id": "8drzxda9v4cvr",
+        "awr_file": "awrrpt_1_45770_45771.html",
+        "rows_processed": 58949,
+        "elapsed_time": 814.81,
+        "cpu_percent": 20.7
+    },
+    {
+        "query_id": "dcysbmgpdmgdv",
+        "awr_file": "awrrpt_1_45770_45771.html",
+        "rows_processed": 0,
+        "elapsed_time": 4.21,
+        "cpu_percent": 27.7
+    },
+    {
+        "query_id": "9nahxy8ca483f",
+        "awr_file": "awrrpt_1_45770_45771.html",
+        "rows_processed": 53711,
+        "elapsed_time": 22.74,
+        "cpu_percent": 14.3
+    },
+    {
+        "query_id": "5dqz0hqtp9fru",
+        "awr_file": "awrrpt_1_45770_45771.html",
+        "rows_processed": 34218,
+        "elapsed_time": 2.65,
+        "cpu_percent": 27.8
+    },
+    {
+        "query_id": "0k8522rmdzg4k",
+        "awr_file": "awrrpt_1_45770_45771.html",
+        "rows_processed": 36249,
+        "elapsed_time": 1.26,
+        "cpu_percent": 28.7
+    },
+    {
+        "query_id": "dp1s9xxfxp2us",
+        "awr_file": "awrrpt_1_40877_40878.html",
+        "rows_processed": 211869,
+        "elapsed_time": 5.70,
+        "cpu_percent": 56.9
+    },
+    {
+        "query_id": "61y2197gjtnn2",
+        "awr_file": "awrrpt_1_40877_40878.html",
+        "rows_processed": 100000,
+        "elapsed_time": 213.79,
+        "cpu_percent": 25.6
+    },
+    {
+        "query_id": "8dz2xt4gcf0y0",
+        "awr_file": "awrrpt_1_40877_40878.html",
+        "rows_processed": 100000,
+        "elapsed_time": 860.38,
+        "cpu_percent": 8.1
+    },
+    {
+        "query_id": "2p9fv35c7zxtg",
+        "awr_file": "awrrpt_1_40877_40878.html",
+        "rows_processed": 3,
+        "elapsed_time": 0.30,
+        "cpu_percent": 48.9
+    },
+    {
+        "query_id": "5mscr4bry7b6c",
+        "awr_file": "awrrpt_1_40877_40878.html",
+        "rows_processed": 3591,
+        "elapsed_time": 17.04,
+        "cpu_percent": 57.7
+    },
+    {
+        "query_id": "gxgs0vc3dw7c1",
+        "awr_file": "awrrpt_1_40877_40878.html",
+        "rows_processed": 211869,
+        "elapsed_time": 5.61,
+        "cpu_percent": 60.7
+    },
+    {
+        "query_id": "8w5st001wrj4q",
+        "awr_file": "awrrpt_1_40877_40878.html",
+        "rows_processed": 0,
+        "elapsed_time": 0.32,
+        "cpu_percent": 57.6
+    },
+    {
+        "query_id": "c79fcfw22nqu9",
+        "awr_file": "awrrpt_1_40877_40878.html",
+        "rows_processed": 728,
+        "elapsed_time": 0.13,
+        "cpu_percent": 57.9
+    },
+    {
+        "query_id": "5dqz0hqtp9fru",
+        "awr_file": "awrrpt_1_40877_40878.html",
+        "rows_processed": 3226,
+        "elapsed_time": 0.10,
+        "cpu_percent": 34.9
+    },
+    {
+        "query_id": "718fb5kwmgmf1",
+        "awr_file": "awrrpt_1_40877_40878.html",
+        "rows_processed": 336,
+        "elapsed_time": 1.79,
+        "cpu_percent": 58.5
+    },
+    {
+        "query_id": "61y2197gjtnn2",
+        "awr_file": "awrrpt_1_40878_40879.html",
+        "rows_processed": 963489,
+        "elapsed_time": 834.34,
+        "cpu_percent": 53.5
+    },
+    {
+        "query_id": "8dz2xt4gcf0y0",
+        "awr_file": "awrrpt_1_40878_40879.html",
+        "rows_processed": 963454,
+        "elapsed_time": 1444.37,
+        "cpu_percent": 32.0
+    },
+    {
+        "query_id": "dp1s9xxfxp2us",
+        "awr_file": "awrrpt_1_40878_40879.html",
+        "rows_processed": 211751,
+        "elapsed_time": 6.13,
+        "cpu_percent": 53.5
+    },
+    {
+        "query_id": "2p9fv35c7zxtg",
+        "awr_file": "awrrpt_1_40878_40879.html",
+        "rows_processed": 1,
+        "elapsed_time": 0.58,
+        "cpu_percent": 37.8
+    },
+    {
+        "query_id": "5mscr4bry7b6c",
+        "awr_file": "awrrpt_1_40878_40879.html",
+        "rows_processed": 3589,
+        "elapsed_time": 18.18,
+        "cpu_percent": 54.0
+    },
+    
+    {
+        "query_id": "x1bad001",
+        "awr_file": "awrrpt_1_40900_40901.html",
+        "rows_processed": 180,
+        "elapsed_time": 18.5,
+        "cpu_percent": 85.6
+    },
+    {
+        "query_id": "x1bad002",
+        "awr_file": "awrrpt_1_40902_40903.html",
+        "rows_processed": 90,
+        "elapsed_time": 14.2,
+        "cpu_percent": 89.3
+    },
+    {
+        "query_id": "x1bad003",
+        "awr_file": "awrrpt_1_40904_40905.html",
+        "rows_processed": 310,
+        "elapsed_time": 26.9,
+        "cpu_percent": 91.0
+    },
+    {
+        "query_id": "x1bad004",
+        "awr_file": "awrrpt_1_40906_40907.html",
+        "rows_processed": 80,
+        "elapsed_time": 19.7,
+        "cpu_percent": 93.2
+    },
+    {
+        "query_id": "x1bad005",
+        "awr_file": "awrrpt_1_40908_40909.html",
+        "rows_processed": 410,
+        "elapsed_time": 32.8,
+        "cpu_percent": 87.8
+    },
+    {
+        "query_id": "x1bad006",
+        "awr_file": "awrrpt_1_40910_40911.html",
+        "rows_processed": 230,
+        "elapsed_time": 22.4,
+        "cpu_percent": 90.1
+    },
+    {
+        "query_id": "x1bad007",
+        "awr_file": "awrrpt_1_40912_40913.html",
+        "rows_processed": 55,
+        "elapsed_time": 11.8,
+        "cpu_percent": 85.0
+    },
+    {
+        "query_id": "x1bad008",
+        "awr_file": "awrrpt_1_40914_40915.html",
+        "rows_processed": 700,
+        "elapsed_time": 44.6,
+        "cpu_percent": 92.4
+    },
+    {
+        "query_id": "x1bad009",
+        "awr_file": "awrrpt_1_40916_40917.html",
+        "rows_processed": 0,
+        "elapsed_time": 9.3,
+        "cpu_percent": 88.9
+    },
+    {
+        "query_id": "x1bad010",
+        "awr_file": "awrrpt_1_40918_40919.html",
+        "rows_processed": 160,
+        "elapsed_time": 17.0,
+        "cpu_percent": 86.7
+    },
+
+
+    {
+        "query_id": "gxgs0vc3dw7c1",
+        "awr_file": "awrrpt_1_40878_40879.html",
+        "rows_processed": 211751,
+        "elapsed_time": 5.98,
+        "cpu_percent": 56.8
+    },
+    {
+        "query_id": "8w5st001wrj4q",
+        "awr_file": "awrrpt_1_40878_40879.html",
+        "rows_processed": 0,
+        "elapsed_time": 0.32,
+        "cpu_percent": 52.9
+    },
+    {
+        "query_id": "5dqz0hqtp9fru",
+        "awr_file": "awrrpt_1_40878_40879.html",
+        "rows_processed": 6333,
+        "elapsed_time": 0.19,
+        "cpu_percent": 36.2
+    },
+    {
+        "query_id": "c79fcfw22nqu9",
+        "awr_file": "awrrpt_1_40878_40879.html",
+        "rows_processed": 736,
+        "elapsed_time": 0.13,
+        "cpu_percent": 53.3
+    },
+    {
+        "query_id": "3dbzmtf9ahvzt",
+        "awr_file": "awrrpt_1_40878_40879.html",
+        "rows_processed": 424,
+        "elapsed_time": 0.14,
+        "cpu_percent": 35.1
+    },
+    {
+        "query_id": "dp1s9xxfxp2us",
+        "awr_file": "awrrpt_1_40876_40877.html",
+        "rows_processed": 211987,
+        "elapsed_time": 5.56,
+        "cpu_percent": 58.3
+    },
+    {
+        "query_id": "7yy327zur6fmu",
+        "awr_file": "awrrpt_1_40876_40877.html",
+        "rows_processed": 7663,
+        "elapsed_time": 1.03,
+        "cpu_percent": 58.0
+    },
+    {
+        "query_id": "2p9fv35c7zxtg",
+        "awr_file": "awrrpt_1_40876_40877.html",
+        "rows_processed": 0,
+        "elapsed_time": 0.26,
+        "cpu_percent": 56.1
+    },
+    {
+        "query_id": "5mscr4bry7b6c",
+        "awr_file": "awrrpt_1_40876_40877.html",
+        "rows_processed": 3593,
+        "elapsed_time": 16.51,
+        "cpu_percent": 59.4
+    },
+    {
+        "query_id": "gxgs0vc3dw7c1",
+        "awr_file": "awrrpt_1_40876_40877.html",
+        "rows_processed": 211987,
+        "elapsed_time": 5.41,
+        "cpu_percent": 62.3
+    },
+    {
+        "query_id": "22q2s31jf3p73",
+        "awr_file": "awrrpt_1_40876_40877.html",
+        "rows_processed": 1481,
+        "elapsed_time": 0.55,
+        "cpu_percent": 58.8
+    },
+    {
+        "query_id": "950ptzaysg9x6",
+        "awr_file": "awrrpt_1_40876_40877.html",
+        "rows_processed": 0,
+        "elapsed_time": 1.27,
+        "cpu_percent": 59.2
+    },
+    {
+        "query_id": "8w5st001wrj4q",
+        "awr_file": "awrrpt_1_40876_40877.html",
+        "rows_processed": 0,
+        "elapsed_time": 0.30,
+        "cpu_percent": 59.7
+    },
+    {
+        "query_id": "c79fcfw22nqu9",
+        "awr_file": "awrrpt_1_40876_40877.html",
+        "rows_processed": 728,
+        "elapsed_time": 0.12,
+        "cpu_percent": 59.7
+    },
+    {
+        "query_id": "5dqz0hqtp9fru",
+        "awr_file": "awrrpt_1_40876_40877.html",
+        "rows_processed": 3168,
+        "elapsed_time": 0.09,
+        "cpu_percent": 33.7
+    },
+
+
+
+
+
+
+    {
+        "query_id": "a1",
+        "awr_file": "awrrpt_1.html",
+        "rows_processed": 100,
+        "elapsed_time": 0.05,
+        "cpu_percent": 12.5
+    },
+
+    {
+        "query_id": "a2",
+        "awr_file": "awrrpt_1.html",
+        "rows_processed": 300,
+        "elapsed_time": 0.10,
+        "cpu_percent": 20.0
+    },
+
+    {
+        "query_id": "a3",
+        "awr_file": "awrrpt_1.html", 
+        "rows_processed": 500, 
+        "elapsed_time": 0.25,
+        "cpu_percent": 30.0
+    },
+    {
+        "query_id": "a4", 
+        "awr_file": "awrrpt_1.html", 
+        "rows_processed": 800, 
+        "elapsed_time": 0.20,
+        "cpu_percent": 40.0
+    },
+
+    {
+        "query_id": "a5", 
+        "awr_file": "awrrpt_1.html",
+        "rows_processed": 1500, 
+        "elapsed_time": 0.40, 
+        "cpu_percent": 42.5
+    },
+    {
+        "query_id": "b1",
+        "awr_file": "awrrpt_2.html", 
+        "rows_processed": 2500, 
+        "elapsed_time": 0.90, 
+        "cpu_percent": 55.0
+    },
+    {
+        "query_id": "b2", 
+        "awr_file": "awrrpt_2.html", 
+        "rows_processed": 3000, 
+        "elapsed_time": 1.20, 
+        "cpu_percent": 60.0
+    },
+    {
+        "query_id": "b3", 
+        "awr_file": "awrrpt_2.html", 
+        "rows_processed": 3500, 
+        "elapsed_time": 1.60, 
+        "cpu_percent": 65.0
+    },
+    {
+        "query_id": "b4",
+        "awr_file": "awrrpt_2.html",
+        "rows_processed": 4000, 
+        "elapsed_time": 2.00, 
+        "cpu_percent": 70.0},
+    
+        
+    {   "query_id": "q001",
+        "awr_file": "awrrpt_1_41001_41002.html", 
+        "rows_processed": 5000, 
+        "elapsed_time": 1200.5, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q002",
+        "awr_file": "awrrpt_1_41001_41002.html", 
+        "rows_processed": 3000, 
+        "elapsed_time": 1500.1, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q003", 
+        "awr_file": "awrrpt_1_41001_41002.html", 
+        "rows_processed": 7000, 
+        "elapsed_time": 1800.9, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q004", 
+        "awr_file": "awrrpt_1_41003_41004.html", 
+        "rows_processed": 2000, 
+        "elapsed_time": 1100.7, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q005",     
+        "awr_file": "awrrpt_1_41003_41004.html", 
+        "rows_processed": 4500, 
+        "elapsed_time": 1300.3, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q006", 
+        "awr_file": "awrrpt_1_41005_41006.html", 
+        "rows_processed": 6000, 
+        "elapsed_time": 2200.8, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q007", 
+        "awr_file": "awrrpt_1_41005_41006.html", 
+        "rows_processed": 10000, 
+        "elapsed_time": 2500.0, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q008", 
+        "awr_file": "awrrpt_1_41007_41008.html", 
+        "rows_processed": 1500, 
+        "elapsed_time": 1400.2, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q009",
+        "awr_file": "awrrpt_1_41007_41008.html", 
+        "rows_processed": 4000, 
+        "elapsed_time": 1150.4, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q010", 
+        "awr_file": "awrrpt_1_41009_41010.html", 
+        "rows_processed": 3500, 
+        "elapsed_time": 1600.6, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q011", 
+        "awr_file": "awrrpt_1_41009_41010.html",
+        "rows_processed": 8000, 
+        "elapsed_time": 2300.9, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q012", 
+        "awr_file": "awrrpt_1_41011_41012.html", 
+        "rows_processed": 2500, 
+        "elapsed_time": 1900.1,
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q013", 
+        "awr_file": "awrrpt_1_41011_41012.html",
+        "rows_processed": 9000, 
+        "elapsed_time": 2700.7, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q014", 
+        "awr_file": "awrrpt_1_41013_41014.html", 
+        "rows_processed": 1200, 
+        "elapsed_time": 1350.3,
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q015", 
+        "awr_file": "awrrpt_1_41013_41014.html", 
+        "rows_processed": 5500, 
+        "elapsed_time": 2100.4, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q016", 
+        "awr_file": "awrrpt_1_41015_41016.html", 
+        "rows_processed": 1300, 
+        "elapsed_time": 1700.2, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q017", 
+        "awr_file": "awrrpt_1_41015_41016.html", 
+        "rows_processed": 600, 
+        "elapsed_time": 1250.6, 
+        "cpu_percent": 0
+    },
+    {
+         "query_id": "q018",
+         "awr_file": "awrrpt_1_41017_41018.html", 
+         "rows_processed": 700, 
+         "elapsed_time": 1450.0, 
+         "cpu_percent": 0
+    },
+    {
+        "query_id": "q019", 
+        "awr_file": "awrrpt_1_41017_41018.html", 
+        "rows_processed": 4800, 
+        "elapsed_time": 2200.5, 
+        "cpu_percent": 0
+    },
+    
+    {
+        "query_id": "q020",
+        "awr_file": "awrrpt_1_41019_41020.html", 
+        "rows_processed": 350, 
+        "elapsed_time": 1100.9, 
+        "cpu_percent": 0
+    },
+    
+    {
+        "query_id": "q021", 
+        "awr_file": "awrrpt_1_41019_41020.html", 
+        "rows_processed": 7500, 
+        "elapsed_time": 2400.3, 
+        "cpu_percent": 0
+    },
+    
+    {
+        "query_id": "q022", 
+        "awr_file": "awrrpt_1_41021_41022.html", 
+        "rows_processed": 3200, 
+        "elapsed_time": 1600.8, 
+        "cpu_percent": 0
+    },
+
+    {
+        "query_id": "q023", 
+        "awr_file": "awrrpt_1_41021_41022.html", 
+        "rows_processed": 900, 
+        "elapsed_time": 1300.2, 
+        "cpu_percent": 0
+    },
+    
+    {
+        "query_id": "q024", 
+        "awr_file": "awrrpt_1_41023_41024.html", 
+        "rows_processed": 1500, 
+        "elapsed_time": 1200.7, 
+        "cpu_percent": 0
+    },
+
+    {
+        "query_id": "q025", 
+        "awr_file": "awrrpt_1_41023_41024.html", 
+        "rows_processed": 200, 
+        "elapsed_time": 1105.5, 
+        "cpu_percent": 0
+    },
+
+    {
+        "query_id": "q026", 
+        "awr_file": "awrrpt_1_41025_41026.html", 
+        "rows_processed": 4000, 
+        "elapsed_time": 1900.1, 
+        "cpu_percent": 0
+    },
+    {
+        "query_id": "q027", 
+        "awr_file": "awrrpt_1_41025_41026.html", 
+        "rows_processed": 6500, 
+        "elapsed_time": 2250.9, 
+        "cpu_percent": 0
+    },
+
+    {
+        "query_id": "q028", 
+        "awr_file": "awrrpt_1_41027_41028.html", 
+        "rows_processed": 2800, 
+        "elapsed_time": 1350.4, 
+        "cpu_percent": 0},
+    {
+        "query_id": "q029",
+        "awr_file": "awrrpt_1_41027_41028.html", 
+        "rows_processed": 1800, 
+        "elapsed_time": 1400.7, 
+        "cpu_percent": 0
+    },
+
+    {
+        "query_id": "q030", 
+        "awr_file": "awrrpt_1_41029_41030.html", 
+        "rows_processed": 500, 
+        "elapsed_time": 1150.0, 
+        "cpu_percent": 0
+    },
+        
+    {
+        "query_id": "b5",
+        "awr_file": "awrrpt_2.html", 
+        "rows_processed": 5000, 
+        "elapsed_time": 2.50, 
+        "cpu_percent": 75.0
+    },
+
+    {
+        "query_id": "c1", 
+        "awr_file": "awrrpt_3.html", 
+        "rows_processed": 10000, 
+        "elapsed_time": 5.50, 
+        "cpu_percent": 80.0
+    },
+    {
+        "query_id": "c2",
+        "awr_file": "awrrpt_3.html", 
+        "rows_processed": 12000, 
+        "elapsed_time": 6.00, 
+        "cpu_percent": 83.0
+    },
+    
+    {
+        "query_id": "c3", 
+    "   awr_file": "awrrpt_3.html", 
+        "rows_processed": 14000,
+        "elapsed_time": 7.20,
+        "cpu_percent": 85.0
+    },
+   
+    {
+        "query_id": "c4",
+        "awr_file": "awrrpt_3.html",
+        "rows_processed": 16000,
+        "elapsed_time": 9.00,
+        "cpu_percent": 88.0
+    },
+   
+    {
+        "query_id": "c5", 
+        "awr_file": "awrrpt_3.html", 
+        "rows_processed": 20000, 
+        "elapsed_time": 10.50, 
+        "cpu_percent": 90.0},
+
+    {
+        "query_id": "d1",
+        "awr_file": "awrrpt_4.html", 
+        "rows_processed": 400, 
+        "elapsed_time": 3.50,
+        "cpu_percent": 90.0
+    },
+
+    {
+        "query_id": "d2", 
+        "awr_file": "awrrpt_4.html", 
+        "rows_processed": 1000, 
+        "elapsed_time": 4.00, 
+        "cpu_percent": 92.0
+    },
+
+    {
+        "query_id": "d3", 
+        "awr_file": "awrrpt_4.html",
+        "rows_processed": 2000,
+        "elapsed_time": 5.00,
+        "cpu_percent": 95.0
+    },
+
+    {
+        "query_id": "d4",
+        "awr_file": "awrrpt_4.html",
+        "rows_processed": 3000,
+        "elapsed_time": 6.50,
+        "cpu_percent": 97.0
+    },
+
+    {
+        "query_id": "d5",
+        "awr_file": "awrrpt_4.html",
+        "rows_processed": 4000,
+        "elapsed_time": 8.00,
+        "cpu_percent": 98.0
+    },
+
+    { 
+        "query_id": "e1", 
+        "awr_file": "awrrpt_5.html",
+        "rows_processed": 500,
+        "elapsed_time": 0.10,
+        "cpu_percent": 15.0
+    },
+
+    {
+        "query_id": "e2",
+        "awr_file": "awrrpt_5.html",
+        "rows_processed": 1000,
+        "elapsed_time": 0.30,
+        "cpu_percent": 20.0
+    },    
+    {   
+        "query_id": "e3",
+        "awr_file": "awrrpt_5.html",
+        "rows_processed": 1500,
+        "elapsed_time": 0.45,
+        "cpu_percent": 22.0},
+    {  
+        "query_id": "e4",
+        "awr_file": "awrrpt_5.html",
+        "rows_processed": 2000,
+        "elapsed_time": 0.60,
+        "cpu_percent": 25.0
+    },
+    {  
+        "query_id": "e5",
+        "awr_file": "awrrpt_5.html",
+        "rows_processed": 2500,
+        "elapsed_time": 0.80,
+        "cpu_percent": 28.0},
+
+    {
+        "query_id": "f1", 
+        "awr_file": "awrrpt_6.html", 
+        "rows_processed": 100,
+        "elapsed_time": 0.90,
+        "cpu_percent": 95.0
+    },
+
+    {
+        "query_id": "f2",
+        "awr_file": "awrrpt_6.html",
+        "rows_processed": 300,
+        "elapsed_time": 1.10,
+        "cpu_percent": 93.0
+    },
+
+    {
+        "query_id": "f3", 
+        "awr_file": "awrrpt_6.html",
+        "rows_processed": 500, 
+        "elapsed_time": 1.30,
+        "cpu_percent": 91.0
+    },
+
+    {
+        "query_id": "f4",
+        "awr_file": "awrrpt_6.html",
+        "rows_processed": 800,
+        "elapsed_time": 1.60,
+        "cpu_percent": 89.0
+    },
+    
+    {
+        "query_id": "f5",
+        "awr_file": "awrrpt_6.html",
+        "rows_processed": 1000,
+        "elapsed_time": 2.00,
+        "cpu_percent": 87.0
+    }
+]

@@ -1,0 +1,32 @@
+{
+    "awrrpt_1_45771_45772": {
+        "moyenne_sessions": 245.0,
+        "begin_sessions": 255,
+        "end_sessions": 235
+    },
+    "awrrpt_1_45769_45770": {
+        "moyenne_sessions": 212.0,
+        "begin_sessions": 168,
+        "end_sessions": 256
+    },
+    "awrrpt_1_45770_45771": {
+        "moyenne_sessions": 255.5,
+        "begin_sessions": 256,
+        "end_sessions": 255
+    },
+    "awrrpt_1_40877_40878": {
+        "moyenne_sessions": 481.0,
+        "begin_sessions": 480,
+        "end_sessions": 482
+    },
+    "awrrpt_1_40878_40879": {
+        "moyenne_sessions": 483.0,
+        "begin_sessions": 482,
+        "end_sessions": 484
+    },
+    "awrrpt_1_40876_40877": {
+        "moyenne_sessions": 480.5,
+        "begin_sessions": 481,
+        "end_sessions": 480
+    }
+}
