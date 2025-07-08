@@ -132,7 +132,8 @@ if uploaded_file is not None:
         if df.empty:
             st.error("❌ Aucune donnée extraite.")
         else:
-            st.success(f"✅ {len(df)} requêtes extraites. Détection en cours...")
+            st.markdown(f"<p style='color:black; font-size:18px;'>✅ {len(df)} requêtes extraites. Détection en cours...</p>", unsafe_allow_html=True)
+
 
             for col in model.feature_names_in_:
                 if col not in df.columns:
@@ -143,10 +144,11 @@ if uploaded_file is not None:
             df['cause_probable'] = df.apply(identifier_cause_ai, axis=1)
 
             incidents = df[df['incident'] == 1]
-            st.write(f"🚨 {len(incidents)} incident(s) détecté(s).")
+            st.markdown(f"<p style='color:black; font-size:18px;'>🚨 {len(incidents)} incident(s) détecté(s).</p>", unsafe_allow_html=True)
+
 
             if not incidents.empty:
-                st.subheader("📊 Requêtes lentes détectées")
+                st.markdown("<h3 style='color:black;'>📊 Requêtes lentes détectées</h3>", unsafe_allow_html=True)
                 st.dataframe(incidents[['query_id', 'query_text', 'elapsed_time', 'rows_processed', 'cpu_percent', 'incident', 'cause_probable']])
 
                 fig = px.bar(
