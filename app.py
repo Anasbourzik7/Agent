@@ -36,7 +36,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # === Formulaire Oracle (désactivé mais visible pour l'encadrant)
-st.markdown("### 🔌 Connexion Oracle (désactivée pour le déploiement cloud)")
+st.markdown("<h3 style='color:black;'>🔌 Connexion Oracle (désactivée pour le déploiement cloud)</h3>", unsafe_allow_html=True)
 with st.form("oracle_conn_form"):
     col1, col2 = st.columns(2)
     with col1:
