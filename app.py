@@ -1,4 +1,3 @@
-
 import streamlit as st
 import pandas as pd
 import joblib
@@ -20,7 +19,6 @@ st.markdown("""
 # Titre sur la ligne suivante, en noir
 st.markdown("<h2 style='color:#000000;'>🧠 Détection des performances </h2>", unsafe_allow_html=True)
 
-
 # === Styles personnalisés (facultatif)
 st.markdown("""
     <style>
@@ -33,11 +31,32 @@ st.markdown("""
         .stButton > button {
             background-color: #FFA500;
             color: white;
-             img {
-            border-radius: 0% !important;
-        }
         }
     </style>
+""", unsafe_allow_html=True)
+
+# === Formulaire Oracle (désactivé mais visible pour l'encadrant)
+st.markdown("### 🔌 Connexion Oracle (désactivée pour le déploiement cloud)")
+with st.form("oracle_conn_form"):
+    col1, col2 = st.columns(2)
+    with col1:
+        st.text_input("Hôte", placeholder="ex: 127.0.0.1", disabled=True)
+        st.text_input("Port", placeholder="ex: 1521", disabled=True)
+        st.text_input("Utilisateur", disabled=True)
+        st.text_input("Mot de passe", type="password", disabled=True)
+    with col2:
+        st.text_input("Service Name ou SID", placeholder="ex: ORCL", disabled=True)
+        st.checkbox("Utiliser un SID", value=False, disabled=True)
+
+    st.form_submit_button("Se connecter", disabled=True)
+
+# === Bouton de statut connexion simulée (désactivé)
+st.markdown("""
+    <div style="text-align:right; padding:10px 0;">
+        <button style="background-color:#b00020; color:white; border:none; padding:10px 20px; border-radius:5px;" disabled>
+            Connexion Oracle désactivée (environnement cloud)
+        </button>
+    </div>
 """, unsafe_allow_html=True)
 
 # === Charger le modèle
@@ -130,7 +149,6 @@ def identifier_cause_ai(row):
 st.markdown("<h6 style='color:#000000;'>📤 Upload un fichier AWR (.html)</h6>", unsafe_allow_html=True)
 uploaded_file = st.file_uploader("", type="html")  # label vide
 
-
 if uploaded_file is not None:
     try:
         html_string = uploaded_file.read().decode("utf-8", errors='ignore')
@@ -140,7 +158,6 @@ if uploaded_file is not None:
             st.error("❌ Aucune donnée extraite.")
         else:
             st.markdown(f"<p style='color:black; font-size:18px;'>✅ {len(df)} requêtes extraites. Détection en cours...</p>", unsafe_allow_html=True)
-
 
             for col in model.feature_names_in_:
                 if col not in df.columns:
@@ -152,7 +169,6 @@ if uploaded_file is not None:
 
             incidents = df[df['incident'] == 1]
             st.markdown(f"<p style='color:black; font-size:18px;'>🚨 {len(incidents)} incident(s) détecté(s).</p>", unsafe_allow_html=True)
-
 
             if not incidents.empty:
                 st.markdown("<h3 style='color:black;'>📊 Requêtes lentes détectées</h3>", unsafe_allow_html=True)
