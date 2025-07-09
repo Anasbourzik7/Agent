@@ -39,7 +39,7 @@ st.markdown("""
 st.markdown("<h3 style='color:black;'>🔌 Connexion Oracle (désactivée pour le déploiement cloud)</h3>", unsafe_allow_html=True)
 with st.form("oracle_conn_form"):
     col1, col2 = st.columns(2)
-with col1:
+    with col1:
         st.markdown("<label style='color:black;'>Hôte</label>", unsafe_allow_html=True)
         st.text_input(label="", placeholder="ex: 127.0.0.1", disabled=True)
 
