@@ -67,7 +67,7 @@ with col2:
         st.text_input("Service Name ou SID", placeholder="ex: ORCL", disabled=True)
         st.checkbox("Utiliser un SID", value=False, disabled=True)
 
-    st.form_submit_button("Se connecter", disabled=True)
+        st.form_submit_button("Se connecter", disabled=True)
 # === Bouton de statut connexion simulée (désactivé)
 st.markdown("""
     <div style="text-align:right; padding:10px 0;">
