@@ -41,33 +41,24 @@ with st.form("oracle_conn_form"):
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("<label style='color:black;'>Hôte</label>", unsafe_allow_html=True)
-        st.text_input(label="", placeholder="ex: 127.0.0.1", disabled=True)
+        st.text_input("host", placeholder="ex: 127.0.0.1", disabled=True)
 
         st.markdown("<label style='color:black;'>Port</label>", unsafe_allow_html=True)
-        st.text_input(label="", placeholder="ex: 1521", disabled=True)
+        st.text_input("port", placeholder="ex: 1521", disabled=True)
 
         st.markdown("<label style='color:black;'>Utilisateur</label>", unsafe_allow_html=True)
-        st.text_input(label="", disabled=True)
+        st.text_input("user", disabled=True)
 
         st.markdown("<label style='color:black;'>Mot de passe</label>", unsafe_allow_html=True)
-        st.text_input(label="", type="password", disabled=True)
-        st.markdown("<label style='color:black;'>Hôte</label>", unsafe_allow_html=True)
-        st.text_input(label="", placeholder="ex: 127.0.0.1", disabled=True)
+        st.text_input("password", type="password", disabled=True)
 
-        st.markdown("<label style='color:black;'>Port</label>", unsafe_allow_html=True)
-        st.text_input(label="", placeholder="ex: 1521", disabled=True)
-
-        st.markdown("<label style='color:black;'>Utilisateur</label>", unsafe_allow_html=True)
-        st.text_input(label="", disabled=True)
-
-        st.markdown("<label style='color:black;'>Mot de passe</label>", unsafe_allow_html=True)
-        st.text_input(label="", type="password", disabled=True)
-
-with col2:
-        st.text_input("Service Name ou SID", placeholder="ex: ORCL", disabled=True)
+    with col2:
+        st.markdown("<label style='color:black;'>Service Name ou SID</label>", unsafe_allow_html=True)
+        st.text_input("service_name", placeholder="ex: ORCL", disabled=True)
         st.checkbox("Utiliser un SID", value=False, disabled=True)
 
-        st.form_submit_button("Se connecter", disabled=True)
+    st.form_submit_button("Se connecter", disabled=True)
+
 # === Bouton de statut connexion simulée (désactivé)
 st.markdown("""
     <div style="text-align:right; padding:10px 0;">
@@ -167,6 +158,7 @@ def identifier_cause_ai(row):
 st.markdown("<h6 style='color:#000000;'>📤 Upload un fichier AWR (.html)</h6>", unsafe_allow_html=True)
 uploaded_file = st.file_uploader("", type="html")  # label vide
 
+
 if uploaded_file is not None:
     try:
         html_string = uploaded_file.read().decode("utf-8", errors='ignore')
@@ -176,6 +168,7 @@ if uploaded_file is not None:
             st.error("❌ Aucune donnée extraite.")
         else:
             st.markdown(f"<p style='color:black; font-size:18px;'>✅ {len(df)} requêtes extraites. Détection en cours...</p>", unsafe_allow_html=True)
+
 
             for col in model.feature_names_in_:
                 if col not in df.columns:
@@ -187,6 +180,7 @@ if uploaded_file is not None:
 
             incidents = df[df['incident'] == 1]
             st.markdown(f"<p style='color:black; font-size:18px;'>🚨 {len(incidents)} incident(s) détecté(s).</p>", unsafe_allow_html=True)
+
 
             if not incidents.empty:
                 st.markdown("<h3 style='color:black;'>📊 Requêtes lentes détectées</h3>", unsafe_allow_html=True)
