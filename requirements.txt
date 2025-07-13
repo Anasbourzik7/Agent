@@ -7,3 +7,8 @@ xgboost
 scikit-learn
 numpy
 lxml
+
+# Pour les graphiques et PDF
+
+matplotlib
+reportlab
