@@ -476,6 +476,6 @@ if uploaded_file is not None:
                     file_name="rapport_requetes_lentes.pdf",
                     mime="application/pdf"
                 )
-
+                
     except Exception as e:
         st.error(f"❌ Erreur : {e}")
