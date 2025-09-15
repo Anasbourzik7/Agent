@@ -49,39 +49,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# === Formulaire Oracle (désactivé mais visible pour l'encadrant)
-st.markdown("<h3 style='color:black;'>🔌 Connexion Oracle (désactivée pour le déploiement cloud)</h3>", unsafe_allow_html=True)
-with st.form("oracle_conn_form"):
-    col1, col2 = st.columns(2)
-    with col1:
-        st.markdown("<label style='color:black;'>Hôte</label>", unsafe_allow_html=True)
-        st.text_input("host", placeholder="ex: 127.0.0.1", disabled=True)
-
-        st.markdown("<label style='color:black;'>Port</label>", unsafe_allow_html=True)
-        st.text_input("port", placeholder="ex: 1521", disabled=True)
-
-        st.markdown("<label style='color:black;'>Utilisateur</label>", unsafe_allow_html=True)
-        st.text_input("user", disabled=True)
-
-        st.markdown("<label style='color:black;'>Mot de passe</label>", unsafe_allow_html=True)
-        st.text_input("password", type="password", disabled=True)
-
-    with col2:
-        st.markdown("<label style='color:black;'>Service Name ou SID</label>", unsafe_allow_html=True)
-        st.text_input("service_name", placeholder="ex: ORCL", disabled=True)
-        st.checkbox("Utiliser un SID", value=False, disabled=True)
-
-    st.form_submit_button("Se connecter", disabled=True)
-
-# === Bouton de statut connexion simulée (désactivé)
-st.markdown("""
-    <div style="text-align:right; padding:10px 0;">
-        <button style="background-color:#b00020; color:white; border:none; padding:10px 20px; border-radius:5px;" disabled>
-            Connexion Oracle désactivée (environnement cloud)
-        </button>
-    </div>
-""", unsafe_allow_html=True)
-
 # === Charger le modèle
 model_path = "2-Models/XGext.pkl"
 model = joblib.load(model_path)
