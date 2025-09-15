@@ -236,7 +236,7 @@ def generate_professional_pdf(df, awr_title, logo_path):
     story.append(Spacer(1, 30))
     
     # Tableau principal des requêtes
-    table_data = [['ID Requête', 'Texte Requête', 'Temps écoulé (s)', 'CPU (%)', 'Cause probable']]
+    table_data = [['ID Requête', 'Requête', 'Temps', 'CPU (%)', 'Cause probable']]
     
     for _, row in df.iterrows():
         # Utiliser Paragraph pour le texte des requêtes pour permettre le wrap
