@@ -236,7 +236,7 @@ def generate_professional_pdf(df, awr_title, logo_path):
     story.append(Spacer(1, 30))
     
     # Tableau principal des requêtes
-    table_data = [['ID Requête', 'Requête', 'Temps', 'CPU (%)', 'Cause probable']]
+    table_data = [['ID Requête', 'Requête', 'Temps', 'Lignes', 'CPU (%)', 'Cause probable']]
     
     for _, row in df.iterrows():
         # Utiliser Paragraph pour le texte des requêtes pour permettre le wrap
@@ -260,12 +260,13 @@ def generate_professional_pdf(df, awr_title, logo_path):
             str(row['query_id']),
             query_paragraph,
             f"{row['elapsed_time']:.2f}",
+            f"{row['rows_processed']:,}",
             f"{row['cpu_percent']:.1f}",
             cause
         ])
     
-    # Définir les largeurs des colonnes - augmenter la largeur de la colonne texte
-    col_widths = [1.2*inch, 4.5*inch, 1*inch, 0.8*inch, 1.5*inch]
+    # Définir les largeurs des colonnes - ajuster pour inclure la nouvelle colonne
+    col_widths = [1*inch, 3.8*inch, 0.8*inch, 0.9*inch, 0.7*inch, 1.3*inch]
     
     main_table = Table(table_data, colWidths=col_widths, repeatRows=1)
     
@@ -309,20 +310,20 @@ def generate_professional_pdf(df, awr_title, logo_path):
             table_style.append(('FONTNAME', (2, i), (2, i), 'Helvetica-Bold'))
         
         # Coloration selon le CPU
-        cpu_percent = float(table_data[i][3])
+        cpu_percent = float(table_data[i][4])
         if cpu_percent > 25:
-            table_style.append(('BACKGROUND', (3, i), (3, i), HexColor('#ffe6e6')))
-            table_style.append(('TEXTCOLOR', (3, i), (3, i), HexColor('#c0392b')))
-            table_style.append(('FONTNAME', (3, i), (3, i), 'Helvetica-Bold'))
+            table_style.append(('BACKGROUND', (4, i), (4, i), HexColor('#ffe6e6')))
+            table_style.append(('TEXTCOLOR', (4, i), (4, i), HexColor('#c0392b')))
+            table_style.append(('FONTNAME', (4, i), (4, i), 'Helvetica-Bold'))
         
         # Style des causes
-        cause = table_data[i][4]
+        cause = table_data[i][5]
         if 'Incident probable' in cause:
-            table_style.append(('BACKGROUND', (4, i), (4, i), HexColor('#fff3cd')))
-            table_style.append(('TEXTCOLOR', (4, i), (4, i), HexColor('#856404')))
+            table_style.append(('BACKGROUND', (5, i), (5, i), HexColor('#fff3cd')))
+            table_style.append(('TEXTCOLOR', (5, i), (5, i), HexColor('#856404')))
         elif 'Lignes traitées' in cause or 'Surcharge CPU' in cause:
-            table_style.append(('BACKGROUND', (4, i), (4, i), HexColor('#f8d7da')))
-            table_style.append(('TEXTCOLOR', (4, i), (4, i), HexColor('#721c24')))
+            table_style.append(('BACKGROUND', (5, i), (5, i), HexColor('#f8d7da')))
+            table_style.append(('TEXTCOLOR', (5, i), (5, i), HexColor('#721c24')))
     
     main_table.setStyle(TableStyle(table_style))
     story.append(main_table)
@@ -431,7 +432,7 @@ if uploaded_file is not None:
                 logo_path = "7-assests/Logo_hps_0 (1).png"
                 
                 # Préparer les données pour le PDF
-                pdf_df = incidents[["query_id", "query_text", "elapsed_time", "cpu_percent", "cause_probable"]].copy()
+                pdf_df = incidents[["query_id", "query_text", "elapsed_time", "rows_processed", "cpu_percent", "cause_probable"]].copy()
                 
                 # Générer le PDF professionnel
                 pdf_buffer = generate_professional_pdf(pdf_df, awr_title, logo_path)
